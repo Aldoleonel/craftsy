@@ -1,0 +1,306 @@
+/*HEADER*/
+.home__header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.home__header--box-logo {
+
+    background-color: rgb(255, 55, 0);
+    width: 100%;
+    margin-bottom: 1px;
+    display: flex;
+}
+
+.home__header--logo {
+    width: 30%;
+    padding: 0px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.home_header-buton {
+    margin-bottom: 13px;
+    margin-right: 5px;
+
+}
+
+.home__header--login {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 10px;
+    width: 100%;
+    gap: 15px;
+
+
+
+}
+
+.home__header__nav--menu {
+    width: 100%;
+    display: flex;
+
+}
+
+.home__header__nav--menu ul li {
+    background-color: rgb(255, 55, 0);
+    margin-bottom: 1px;
+    padding: 8px 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+.home__header--ul {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.display-none {
+    display: none;
+}
+
+/*MAIN*/
+
+
+.home__img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.home__main-a {
+    display: flex;
+    width: 20%;
+    background-color: rgb(255, 55, 0);
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.home__article--box-container {
+    font-family: 'Roboto', sans-serif;
+    ;
+
+    color: rgb(58, 57, 57);
+}
+
+.home__article--box-container p {
+    color: rgb(52, 52, 52);
+    font-weight: 700;
+}
+
+
+
+
+/*ASIDE*/
+
+
+
+.home__aside--article img {
+    width: 100%;
+    height: 230px;
+
+}
+
+.home_aside--tutoriales-box img {
+    width: 100%;
+    padding: 10px;
+
+
+}
+
+.home__aside_tutorial {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(207, 232, 242);
+    background-color: white;
+    padding: 10px;
+}
+
+.home__aside--box {
+    border: 8px solid rgb(207, 232, 242);
+}
+
+.home_aside--tutoriales-box {
+    background-color: white;
+}
+
+.home_aside--tutoriales-box a {
+    color: black;
+
+}
+
+.home__aside--article {
+    background-color: white;
+    padding: 10px;
+}
+
+.home__aside--article-h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(207, 232, 242);
+    background-color: white;
+    padding: 10px;
+}
+
+@media (min-width: 481px) {
+
+
+    .home__header {
+
+        order: 1;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: rgb(255, 55, 0);
+
+    }
+
+
+    .home__header--login {
+        display: flex;
+        font-size: 8px;
+        padding: 0;
+        justify-content: flex-start;
+        margin-left: 15px;
+        align-items: center;
+        width: 100%;
+        gap: 0;
+    }
+
+
+
+    .home__header--logo {
+        width: 20%;
+        justify-content: center;
+    }
+
+    .home__header__nav--menu {
+        display: flex;
+        flex-direction: row;
+
+        width: 100%;
+
+
+    }
+
+    .home__header--ul {
+        display: none;
+
+
+
+    }
+
+    .home__header--ul li {
+        display: flex;
+        width: 100%;
+        margin-right: 0;
+        align-items: center;
+    }
+
+    .display-none {
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 4%;
+
+    }
+
+    .home_header-buton {
+        display: flex;
+        width: 100%;
+        padding-top: 13px;
+        margin-left: 10%;
+        margin-right: 15%;
+        justify-content: flex-end;
+        padding-right: 10%;
+
+
+    }
+
+
+}
+
+@media (min-width: 769px) {
+    main {}
+
+    main article {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+
+    .home__article--box-container {
+        width: 49%;
+    }
+
+    .home_aside--tutoriales-box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        margin-top:0px;
+        width: 0;
+        float: right;
+
+    }
+    .home_aside--tutoriales-box img {
+        width: 120px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+    }
+
+    .home__aside--box {
+        display: flex;
+       justify-content: flex-start;
+        align-items: flex-start;
+        width: 150px;
+        background-color: white;
+        flex-direction: column;
+
+    }
+    .div-loco {
+        width: 100%;
+    }
+    .home-section-aside {
+        display: flex;
+        width: 100%;
+        float: right;
+        flex-direction: column;
+    }
+    aside {
+        display: flex;
+        width: 30%;
+        justify-content: flex-start;
+    }
+    .home__aside_tutorial {
+        width: 100%;        
+        margin-top: 0px;
+        padding: 0;
+        border: 0;
+        border-bottom: 5px solid rgb(207, 232, 242);
+    }
+    .asid_sectio_a {
+        float: right;
+        width: 70;
+    }
+
+
+}
